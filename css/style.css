@@ -1,0 +1,61 @@
+#calendar{
+	background-image: url("../jj.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 640px;
+	margin: 0;
+	padding: 0;
+}
+.container{
+	padding-top: 10px;
+	max-width: 650px;
+	font-family: sans-serif;
+	margin-left: 150px;	
+}
+.month{
+	text-align:center;
+	background-color: rgba(0,0,0,0.5);
+	letter-spacing: 1px;
+	border: 5px solid #fff;
+	font-size: 2.6em;
+	color: #fff;
+	padding: 10px;
+	
+}
+table th{
+	color: #fff;
+	background-color: rgba(0,0,0,0.3);
+}
+table, th, td{
+	width: 100%;
+	table-layout: fixed;
+	text-align: center;
+	font-size: 25px;
+	border-collapse: collapse;
+	border: 5px solid #fff;
+	color: #fff;
+	padding: 15px;
+	cursor: pointer;
+}
+tr,th,td{
+	padding: 10px;
+}
+tr td{
+	font-size: 30px;
+}
+th{
+	color: #fff;
+}
+td{
+	background: rgba(0,0,0,0.5);
+}
+td:hover{
+	background: blue;
+}
+.one{
+	background-color: orange;
+}
+.two{
+	background-color: red;
+}
